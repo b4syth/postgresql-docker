@@ -31,7 +31,7 @@ RUN apt-get -y install \
 # Build python from source.
 RUN \
   cd /tmp && \
-  wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz && \
+  wget https://www.python.org/ftp/python/2.7.8/Python-2.7.8.tgz && \
   tar -xzvf Python-*.tgz && \
   rm -f Python-*.tgz && \
   cd Python-* && \
