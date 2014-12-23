@@ -4,7 +4,7 @@
 # http://github.com/tenstartups/postgresql-docker
 #
 
-FROM postgres:latest
+FROM postgres:9.3
 
 MAINTAINER Marc Lennox <marc.lennox@gmail.com>
 
