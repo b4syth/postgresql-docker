@@ -17,7 +17,6 @@ RUN apt-get update
 RUN apt-get -y install \
   build-essential \
   curl \
-  daemontools \
   git \
   libbz2-dev \
   libcurl4-openssl-dev \
