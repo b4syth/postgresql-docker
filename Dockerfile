@@ -17,6 +17,7 @@ ENV \
 RUN apt-get update && apt-get -y install \
   curl \
   git \
+  libffi-dev \
   lzop \
   nano \
   pv \
